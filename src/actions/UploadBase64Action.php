@@ -10,7 +10,7 @@ use yii\helpers\Url;
 use yii\web\BadRequestHttpException;
 use yii\web\UploadedFile;
 
-class UploadBase64Action extends UploadActionFlySystem
+class UploadBase64Action extends UploadFileAction
 {
     public function init()
     {
@@ -55,7 +55,7 @@ class UploadBase64Action extends UploadActionFlySystem
             $output['errors'] = [];
         }
         $result['files'][] = $output;
-        rmdir($pathTemp);
+        unlink($pathTemp . DIRECTORY_SEPARATOR . $filename);
         return $this->multiple ? $result : array_shift($result);
     }
 }
