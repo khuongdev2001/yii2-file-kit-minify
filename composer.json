@@ -1,0 +1,19 @@
+{
+  "name": "khuongdev2001/yii2-file-kit-rest-api",
+  "description": "this version This version is minify from yii2 kit file to remove unnecessary jquery, css ui in the api template\\",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Nguyễn Hữu Khương",
+      "email": "khuongdev2001@gmail.com"
+    }
+  ],
+  "require": {
+    "league/flysystem": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "fileKitMinify\\": "src/"
+    }
+  }
+}
