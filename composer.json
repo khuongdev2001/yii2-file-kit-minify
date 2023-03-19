@@ -11,9 +11,16 @@
   "require": {
     "league/flysystem": "^1.0"
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "fileKitMinify\\": "src/"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
