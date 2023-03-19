@@ -1,5 +1,5 @@
 {
-  "name": "khuongdev2001/yii2-file-kit-rest-api",
+  "name": "khuongdev2001/yii2-file-kit-minify",
   "description": "this version This version is minify from yii2 kit file to remove unnecessary jquery, css ui in the api template\\",
   "type": "yii2-extension",
   "authors": [
