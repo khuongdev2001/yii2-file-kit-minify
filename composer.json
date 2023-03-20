@@ -1,5 +1,5 @@
 {
-  "name": "yii2/file-kit-minify-storage",
+  "name": "yii2-uploader/storage",
   "description": "This version is minify from yii2 kit file to remove unnecessary jquery, css ui in the api template\\",
   "type": "yii2-extension",
   "authors": [
